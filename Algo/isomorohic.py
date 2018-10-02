@@ -22,6 +22,7 @@ def is_isomorohic(s1: str, s2: str) -> bool:
     print ("Isomorohic")
     return True
 
-is_isomorohic('abbc', 'cdde')
-is_isomorohic('abc', 'etd')
-is_isomorohic('aggron', 'daaake')
+if __name__ == "__main__":
+    is_isomorohic('abbc', 'cdde')
+    is_isomorohic('abc', 'etd')
+    is_isomorohic('aggron', 'daaake')
